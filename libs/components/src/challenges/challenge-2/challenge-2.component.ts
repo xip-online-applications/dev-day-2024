@@ -18,6 +18,6 @@ export class Challenge2Component extends LitElement {
 
 declare global {
   interface HTMLElementTagNameMap {
-    'challenge-1': Challenge2Component;
+    'challenge-2': Challenge2Component;
   }
 }
