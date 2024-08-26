@@ -1,0 +1,10 @@
+dist
+**/*.mts
+**/*.ts
+**/*.cjs
+**/*.mjs
+**/*.js
+
+# Enable Stylelint for Lit components
+!libs/components/**/*.component.ts
+!libs/components/**/*.style.ts

@@ -1,0 +1,17 @@
+extends: '@xip-online-applications/stylelint-config'
+plugins:
+  - 'stylelint-use-logical'
+overrides:
+  - files:
+      - '*.ts'
+    customSyntax: 'postcss-lit'
+  - files:
+      - '*.scss'
+    extends: '@xip-online-applications/stylelint-config/scss'
+rules:
+  csstools/use-logical: 'always'
+  declaration-block-no-redundant-longhand-properties: null
+  declaration-property-value-no-unknown: null
+  selector-type-no-unknown: null
+  selector-type-case: null
+  value-keyword-case: null

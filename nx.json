@@ -19,6 +19,9 @@
   },
   "nxCloudAccessToken": "YTI0MDZkYWYtYTFhNy00YTMyLTg3ZTctNzcyOGRiMWU2MWZjfHJlYWQtd3JpdGU=",
   "targetDefaults": {
+    "stylelint": {
+      "cache": true
+    },
     "@angular-devkit/build-angular:application": {
       "cache": true,
       "dependsOn": ["^build"],
