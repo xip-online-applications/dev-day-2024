@@ -11,9 +11,7 @@ export class Challenge2Component extends LitElement {
       <div class="title">
         <slot name="title"></slot>
       </div>
-      <div class="message">
-        <slot>Nothing fancy here, just a simple alert.</slot>
-      </div>
+      <slot>Nothing fancy here, just a simple alert.</slot>
     </div>`;
   }
 }

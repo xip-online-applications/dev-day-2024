@@ -28,7 +28,7 @@ export const DefaultWithTitleAndMessage = {
   render: () => {
     return html`<challenge-2>
       <div slot="title">This is super informative</div>
-      <div slot="message">You can tell by how pretty the alert is.</div>
+      <div>You can tell by how pretty the alert is.</div>
     </challenge-2>`;
   },
 };
