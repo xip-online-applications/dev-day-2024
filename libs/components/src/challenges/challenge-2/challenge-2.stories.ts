@@ -18,9 +18,9 @@ export const Default = {};
 
 export const DefaultWithTitle = {
   render: () => {
-    return html`<challenge-2>
-      <div slot="title">This is super informative</div>
-    </challenge-2>`;
+    return html`<challenge-2
+      ><div slot="title">This is super informative</div></challenge-2
+    >`;
   },
 };
 
